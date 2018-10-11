@@ -1,0 +1,4214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" /> 
+		<link rel="stylesheet" href="css/fenlan.css" /> 
+		<script type="text/javascript" src="js/ajax.js"></script>
+		<script src="js/jquery-3.3.1.js"></script>
+
+	</head>
+	<body>
+<!--右侧固定导航-->
+<div id="right-nav">
+    <div class="w">
+        <ul id="right-nav-list1">
+            <li><a><img src="img/huiyuan.png"></a><div>京东会员</div></li>
+            <li><a><img src="img/car.png"></a><div>购物车</div></li>
+            <li><a><img src="img/guanzhu.png"></a><div>我的关注</div></li>
+            <li><a><img src="img/zuji.png"></a><div>我的足迹</div></li>
+            <li><a><img src="img/xiaoxi.png"></a><div>我的消息</div></li>
+			<li><a><img src="img/JIMI.png"></a><div>咨询JIMI</div></li> 
+			<li><a><img src="img/back.png"></a><div>反馈</div></li>
+        </ul>
+        <ul id="right-nav-list2">
+			<li>
+				<a><img src="img/top.png"></a>
+				<div>顶部</div>
+			</li>
+        </ul>
+    </div>
+</div>
+<!-- 回到顶部效果 -->
+<script>
+	var oTop = document.querySelector("#right-nav-list2 li");
+	
+	oTop.onclick = function(){
+		document.documentElement.scrollTop = 0;
+		document.body.scrollTop = 0;
+	}
+</script>
+<!--右侧固定导航-->
+</body>
+</html>
+		<!-------------------头部-------------------->
+		<header>
+			 <div id="head"class="clearfix">
+			 	 <div class="location">
+			 	 	<span><i class="iconfont icon-diqiu"></i>北京</span>
+			 	 </div>
+			 	 <ul class="head-nav">
+			 	 	<li>
+			 	 		<a href="http://localhost/phpnow/jd/login.html" class="enter" target="_black">你好，请登录</a>
+			 	 		<a href="http://localhost/phpnow/jd/register.html" class="register" target="_black">免费注册</a>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li>
+			 	 		<a href="#">我的订单</a>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li class="my-jd">
+			 	 		<a href="#">我的京东</a>
+			 	 		<img src="img/gotop-hover.png"/>
+			 	 		<div class="myjd-nav2">
+			 	 			<p>
+			 	 				<a href="#">待处理订单</a>
+			 	 				<a href="#">消息</a>
+			 	 				<a href="#">返修退换货</a>
+			 	 				<a href="#">我的问答</a>
+			 	 				<a href="#">降价商品</a>
+			 	 				<a href="#">我的关注</a>
+			 	 			</p>
+			 	 			<p class="nav2-p2">
+			 	 				<a href="#">我的京豆</a>
+			 	 				<a href="#">我的优惠券</a>
+			 	 				<a href="#">我的白条</a>
+			 	 				<a href="#">我的理财</a>
+			 	 			</p>
+			 	 		</div>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li>
+			 	 		<a href="#">京东会员</a>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li class="qiye">
+			 	 		<a href="#">企业采购</a>
+			 	 		<img src="img/gotop-hover.png"/>
+			 	 		<div class="qiye-nav2">
+			 	 			<p class="qiye-nav2-p1">
+			 	 				<a href="#">我的京豆</a>
+			 	 				<a href="#">我的优惠券</a>
+			 	 				<a href="#">我的白条</a>
+			 	 				<a href="#">我的理财</a>
+			 	 			</p>
+			 	 		</div>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li>
+			 	 		<i>客户服务</i>
+			 	 		<img src="img/gotop-hover.png"/>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li class="web">
+			 	 		<i>网站导航</i>
+			 	 		<img src="img/gotop-hover.png"/>
+			 	 		<div class="web-nav2">
+			 	 			<p>
+			 	 				<h4>客户</h4>
+			 	 				<a href="#">帮助中心</a>
+			 	 				<a href="#">售后服务</a>
+			 	 				<a href="#">在线客服</a>
+			 	 				<a href="#">意见建议</a>
+			 	 				<a href="#">电话客服</a>
+			 	 				<a href="#">客服邮箱</a>
+			 	 				<a href="#">金融咨询</a>
+			 	 				<a href="#">全球首客服</a>
+			 	 			</p>
+			 	 			<p class="web-p2">
+			 	 				<h4>商户</h4>
+			 	 				<a href="#">合作招商</a>
+			 	 				<a href="#">学习中心</a>
+			 	 				<a href="#">商家后台</a>
+			 	 				<a href="#">京麦工作台</a>
+			 	 				<a href="#">商家帮助</a>
+			 	 				<a href="#">规则平台</a>
+			 	 			</p>
+			 	 		</div>
+			 	 	</li>
+			 	 	<li class="line"></li>
+			 	 	<li class="mobile">
+			 	 		手机京东
+			 	 		<a href="#" class="mobile-a">
+			 	 			<img src="img/mobile_qrcode.png" class="mobile_qrcode"/>
+			 	 			<span class="sanjiao"></span>
+			 	 		</a>
+			 	 	</li>
+			 	 </ul>
+			 </div>
+		</header>
+		<!-------------------搜索框那块头部那些区域------------>
+		<section id="wrap-content1">
+			<h1></h1>
+			<!--搜索框-->
+			<div class="content1-icon1">
+
+				<div class="search-icon clearfix"  id="search">
+					<p class="search-box clearfix">
+						<input name="input-box"  type="text" value="儿童运动鞋" class="input-box"/>
+						<a href="#" class="photo-box">
+							<i></i>
+						</a>
+					</p>
+					<a href="#" class="search-btn"><i class="iconfont icon-sousuo"></i></a>
+				</div>
+				<div class="zd">
+					<span class="jg"></span>
+					<div class="search-icon1 clearfix"  id="search1">
+						<p class="search-box1 clearfix">
+							<input name="input-box1"  type="text" value="儿童运动鞋" class="input-box1"/>
+							<a href="#" class="photo-box1">
+								<i></i>
+							</a>
+						</p>
+						<a href="#" class="search-btn1"><i class="iconfont icon-sousuo"></i></a>
+					</div>
+				</div>
+
+				<div class="res-box">
+					<ol id="res"></ol>
+					<p class="close"><span class="clo">关闭</span></p>
+				</div>
+				<!--购物车-->
+				<div id="shopping-icon">
+					<i class="iconfont icon-mayijubao"></i>
+					<a href="#" class="my-shopcat">我的购物车</a>
+					<span class="cat-num">0</span>
+				</div>
+			</div>
+			<script>
+				var oShop = document.getElementById("shopping-icon");
+				var oTxt = document.querySelector(".input-box");
+				var oResBox = document.querySelector(".res-box");	
+				var oRes = document.getElementById("res");
+				var cloBtn = document.querySelector(".clo");
+				var oPht = document.querySelector(".photo-box");
+				var oXD = document.querySelector(".content1-icon1");
+				var oSearch = document.querySelector(".search-box");
+				var oZd = document.querySelector(".zd");
+				//搜索框的联想内容
+				oTxt.oninput = function(){
+					jsonp(`https://suggest.taobao.com/sug?code=utf-8&q=${this.value}`,"callback")
+					.then(function(res){
+						var html = "";
+						for(var i = 0 ; i < res.result.length;i++){
+							html += `<li>${res.result[i]}</li>`
+						}
+						oResBox.style.display = "block";
+						oRes.innerHTML = html;
+					})
+				}
+				var timer = null;
+				oTxt.onmouseout = function(){
+					clearTimeout(timer);
+					timer = setTimeout(function(){
+						oResBox.style.display = "none";
+					},1000)  
+				}
+				oResBox.onmouseenter= function(){
+					clearTimeout(timer);
+				}
+				oResBox.onmouseleave = function(){
+					oResBox.style.display = "none";
+				}
+				cloBtn.onclick = function(){
+					oResBox.style.display = "none";
+				}
+				//吸顶效果
+				window.onscroll= function(){
+					var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+					var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+					
+					if(scrollTop >= clientHeight){
+						// oZd.style.opacity = 1;
+						oZd.style.display = "block";
+					}else{
+						// oZd.style.opacity = 0;
+						oZd.style.display = "none";
+					}
+				}
+			</script>
+			
+		    
+			 <!--搜索框下面的nav1-->
+			<ul class="content1-nav1">
+			 	<a href="#">月饼尝鲜季</a>
+			 	<a href="#">开学钜惠</a>
+			 	<a href="#">499减100</a>
+			 	<a href="#">家装空调</a>
+			 	<a href="#">开学季</a>
+			 	<a href="#">组装电脑</a>
+			 	<a href="#">月饼</a>
+			 	<a href="#">直降600</a>
+			 	<a href="#">微软新品</a>	
+			</ul>
+			 <!--轮播图上的nav2-->
+			<div class="content1-icon2 clearfix">
+				<ul class="content1-nav2">
+					<li>
+						<a href="#">秒杀</a>
+						<a href="#">优惠券</a>
+						<a href="#">PLUS会员</a>
+						<a href="#">闪购</a>
+					</li>
+					<li class="line"></li>
+					<li>
+						<a href="#">拍卖<span class="nav2-ysj">艺术节</span></a>
+						<a href="#">京东服饰</a>
+						<a href="#">京东超市</a>
+						<a href="#">生鲜</a>
+					</li>
+					<li class="line"></li>
+					<li>
+						<a href="#">全球购</a>
+						<a href="#">京东金融</a>
+					</li>
+				</ul>
+			 </div>
+		</section>
+		<!------------------轮播图那块的内容------------------>
+		<section id="wrap-content2" class="clearfix">
+			<!--最左边的导航菜单栏-->
+			<div class="content2-icon1">
+				<div class="nav_left">
+				<ul>
+					<li data-id="1">
+						<a href="#">家用电器</a>
+					</li>
+					<li data-id="2">
+						<a href="#">手机</a>
+						<span class="bias-line">/</span>
+						<a href="#">运营商</a>
+						<span class="bias-line">/</span>
+						<a href="#">数码</a>
+					</li>
+					<li data-id="3">
+						<a href="#">电脑</a>
+						<span class="bias-line">/</span>
+						<a href="#">办公</a>
+					</li>
+					<li data-id="4">
+						<a href="#">家居</a>
+						<span class="bias-line">/</span>
+						<a href="#">家具</a>
+						<span class="bias-line">/</span>
+						<a href="#">家装</a>
+						<span class="bias-line">/</span>
+						<a href="#">厨具</a>
+					</li>
+					<li data-id="5">
+						<a href="#">男装</a>
+						<span class="bias-line">/</span>
+						<a href="#">女装</a>
+						<span class="bias-line">/</span>
+						<a href="#">童装</a>
+						<span class="bias-line">/</span>
+						<a href="#">内衣</a>
+					</li>
+					<li data-id="6">
+						<a href="#">美妆</a>
+						<span class="bias-line">/</span>
+						<a href="#">个护清洁</a>
+						<span class="bias-line">/</span>
+						<a href="#">宠物</a>
+					</li>
+					<li data-id="7">
+						<a href="#">女鞋</a>
+						<span class="bias-line">/</span>
+						<a href="#">箱包</a>
+						<span class="bias-line">/</span>
+						<a href="#">钟表</a>
+						<span class="bias-line">/</span>
+						<a href="#">珠宝</a>
+					</li>
+					<li data-id="8">
+						<a href="#">男鞋</a>
+						<span class="bias-line">/</span>
+						<a href="#">运动</a>
+						<span class="bias-line">/</span>
+						<a href="#">户外</a>
+					</li>
+					<li data-id="9">
+						<a href="#">房产</a>
+						<span class="bias-line">/</span>
+						<a href="#">汽车</a>
+						<span class="bias-line">/</span>
+						<a href="#">汽车用品</a>
+					</li>
+					<li data-id="10">
+						<a href="#">母婴</a>
+						<span class="bias-line">/</span>
+						<a href="#">玩具乐器</a>
+					</li>
+					<li data-id="11">
+						<a href="#">食品</a>
+						<span class="bias-line">/</span>
+						<a href="#">酒类</a>
+						<span class="bias-line">/</span>
+						<a href="#">生鲜</a>
+						<span class="bias-line">/</span>
+						<a href="#">特产</a>
+					</li>
+					<li data-id="12">
+						<a href="#">艺术</a>
+						<span class="bias-line">/</span>
+						<a href="#">礼品鲜花</a>
+						<span class="bias-line">/</span>
+						<a href="#">农贸绿植</a>
+					</li>
+					<li data-id="13">
+						<a href="#">医药保健</a>
+						<span class="bias-line">/</span>
+						<a href="#">计生情趣</a>
+					</li>
+					<li data-id="14">
+						<a href="#">图书</a>
+						<span class="bias-line">/</span>
+						<a href="#">音像</a>
+						<span class="bias-line">/</span>
+						<a href="#">电子书</a>
+					</li>
+					<li data-id="15">
+						<a href="#">机票</a>
+						<span class="bias-line">/</span>
+						<a href="#">酒店</a>
+						<span class="bias-line">/</span>
+						<a href="#">旅游</a>
+						<span class="bias-line">/</span>
+						<a href="#">生活</a>
+					</li>
+					<li data-id="16">
+						<a href="#">理财</a>
+						<span class="bias-line">/</span>
+						<a href="#">众筹</a>
+						<span class="bias-line">/</span>
+						<a href="#">白条</a>
+						<span class="bias-line">/</span>
+						<a href="#">保险</a>
+					</li>
+					<li data-id="17">
+						<a href="#">安装</a>
+						<span class="bias-line">/</span>
+						<a href="#">维修</a>
+						<span class="bias-line">/</span>
+						<a href="#">清洗保养</a>
+					</li>
+				</ul>
+				</div>
+				<div class="nav_right">
+			<div class="sub hide" data-id="1">
+				<dl>
+					<dt><a >护肤品1 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >彩妆 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>时尚彩妆</a>
+						<a>香水</a>
+						<a>气垫护肤</a>
+						<a>BB霜</a>
+						<a>口红</a>
+						<a>隔离</a>
+					<a>粉底</a>
+						<a>粉饼</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>洁面爽</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>肤水乳液/面霜</a>
+						<a>精华液</a>
+						<a>眼部护理</a>
+						<a>面膜</a>
+						<a>唇部护理</a>
+						<a>防晒</a>
+						<a>精华液</a>
+						<a>T区护理控油</a>
+
+					</dd>
+
+				</dl>
+	<dl>
+					<dt><a >护肤品 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >彩妆 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>时尚彩妆</a>
+						<a>香水</a>
+						<a>气垫护肤</a>
+						<a>BB霜</a>
+						<a>口红</a>
+						<a>隔离</a>
+					<a>粉底</a>
+						<a>粉饼</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>洁面爽</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>肤水乳液/面霜</a>
+						<a>精华液</a>
+						<a>眼部护理</a>
+						<a>面膜</a>
+						<a>唇部护理</a>
+						<a>防晒</a>
+						<a>精华液</a>
+						<a>T区护理控油</a>
+
+					</dd>
+
+				</dl>
+				<dl>
+					<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>洁面爽</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>肤水乳液/面霜</a>
+						<a>精华液</a>
+						<a>眼部护理</a>
+						<a>面膜</a>
+						<a>唇部护理</a>
+						<a>防晒</a>
+						<a>精华液</a>
+						<a>T区护理控油</a>
+					</dd>	
+				</dl>
+			</div>
+				<div class="sub hide" data-id="2">
+					<dl>
+						<dt><a >护肤品2 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+
+					</dl>
+					<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+
+					</dl>
+					<dl>
+					<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>洁面爽</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>肤水乳液/面霜</a>
+						<a>精华液</a>
+						<a>眼部护理</a>
+						<a>面膜</a>
+						<a>唇部护理</a>
+						<a>防晒</a>
+						<a>精华液</a>
+						<a>T区护理控油</a>
+
+					</dd>
+
+				</dl>
+			<dl>
+					<dt><a >护肤品 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+						<a>官方直售</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>乳液面霜</a>
+						<a>精华液</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >彩妆 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>时尚彩妆</a>
+						<a>香水</a>
+						<a>气垫护肤</a>
+						<a>BB霜</a>
+						<a>口红</a>
+						<a>隔离</a>
+					<a>粉底</a>
+						<a>粉饼</a>
+					</dd>
+
+				</dl>
+					<dl>
+					<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+					<dd>
+						<a>洁面爽</a>
+						<a>面膜</a>
+						<a>护肤套装</a>
+						<a>肤水乳液/面霜</a>
+						<a>精华液</a>
+						<a>眼部护理</a>
+						<a>面膜</a>
+						<a>唇部护理</a>
+						<a>防晒</a>
+						<a>精华液</a>
+						<a>T区护理控油</a>
+
+					</dd>
+
+				</dl>
+				<dl>
+				<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+				<dd>
+					<a>洁面爽</a>
+					<a>面膜</a>
+					<a>护肤套装</a>
+					<a>肤水乳液/面霜</a>
+					<a>精华液</a>
+					<a>眼部护理</a>
+					<a>面膜</a>
+					<a>唇部护理</a>
+					<a>防晒</a>
+					<a>精华液</a>
+					<a>T区护理控油</a>
+
+				</dd>
+
+				</dl>
+				</div>
+	<div class="sub hide" data-id="3">
+			<dl>
+				<dt><a >护肤品3 <i> &gt;</i></a> </dt>
+				<dd>
+					<a>官方直售</a>
+					<a>面膜</a>
+					<a>护肤套装</a>
+					<a>乳液面霜</a>
+					<a>精华液</a>
+					<a>官方直售</a>
+					<a>面膜</a>
+					<a>护肤套装</a>
+					<a>乳液面霜</a>
+					<a>精华液</a>
+					<a>官方直售</a>
+					<a>面膜</a>
+					<a>护肤套装</a>
+					<a>乳液面霜</a>
+					<a>精华液</a>
+				</dd>
+
+			</dl>
+				<dl>
+				<dt><a >彩妆 <i> &gt;</i></a> </dt>
+				<dd>
+					<a>时尚彩妆</a>
+					<a>香水</a>
+					<a>气垫护肤</a>
+					<a>BB霜</a>
+					<a>口红</a>
+					<a>隔离</a>
+				<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+<dl>
+						<dt><a >护肤品 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+				</div>
+			<div class="sub hide" data-id="4">
+					<dl>
+						<dt><a >护肤品4 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+<dl>
+						<dt><a >护肤品 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+				</div>
+				<div class="sub hide" data-id="5">
+						<dl>
+							<dt><a >护肤品5 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+	<dl>
+							<dt><a >护肤品 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+						<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+					</div>
+			<div class="sub hide" data-id="6">
+					<dl>
+						<dt><a >护肤品6 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+<dl>
+						<dt><a >护肤品 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+				</div>
+				<div class="sub hide" data-id="7">
+						<dl>
+							<dt><a >护肤品7 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+	<dl>
+							<dt><a >护肤品 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+						<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+					</div>
+			<div class="sub hide" data-id="8">
+					<dl>
+						<dt><a >护肤品8 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+<dl>
+						<dt><a >护肤品 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+							<a>官方直售</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>乳液面霜</a>
+							<a>精华液</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >彩妆 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>时尚彩妆</a>
+							<a>香水</a>
+							<a>气垫护肤</a>
+							<a>BB霜</a>
+							<a>口红</a>
+							<a>隔离</a>
+						<a>粉底</a>
+							<a>粉饼</a>
+						</dd>
+						
+					</dl>
+						<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+						<dd>
+							<a>洁面爽</a>
+							<a>面膜</a>
+							<a>护肤套装</a>
+							<a>肤水乳液/面霜</a>
+							<a>精华液</a>
+							<a>眼部护理</a>
+							<a>面膜</a>
+							<a>唇部护理</a>
+							<a>防晒</a>
+							<a>精华液</a>
+							<a>T区护理控油</a>
+							
+						</dd>
+						
+					</dl>
+</div>
+				<div class="sub hide" data-id="9">
+						<dl>
+							<dt><a >护肤品9 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+	<dl>
+							<dt><a >护肤品 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+						<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+</div>
+				<div class="sub hide" data-id="10">
+						<dl>
+							<dt><a >护肤品10 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+	<dl>
+							<dt><a >护肤品 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+						<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+					</div>
+				<div class="sub hide" data-id="11">
+						<dl>
+							<dt><a >护肤品11 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+	<dl>
+							<dt><a >护肤品 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+								<a>官方直售</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>乳液面霜</a>
+								<a>精华液</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >彩妆 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>时尚彩妆</a>
+								<a>香水</a>
+								<a>气垫护肤</a>
+								<a>BB霜</a>
+								<a>口红</a>
+								<a>隔离</a>
+							<a>粉底</a>
+								<a>粉饼</a>
+							</dd>
+							
+						</dl>
+							<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+						<dl>
+							<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+							<dd>
+								<a>洁面爽</a>
+								<a>面膜</a>
+								<a>护肤套装</a>
+								<a>肤水乳液/面霜</a>
+								<a>精华液</a>
+								<a>眼部护理</a>
+								<a>面膜</a>
+								<a>唇部护理</a>
+								<a>防晒</a>
+								<a>精华液</a>
+								<a>T区护理控油</a>
+								
+							</dd>
+							
+						</dl>
+					</div>
+					<div class="sub hide" data-id="12">
+							<dl>
+								<dt><a >护肤品12 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >彩妆 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>时尚彩妆</a>
+									<a>香水</a>
+									<a>气垫护肤</a>
+									<a>BB霜</a>
+									<a>口红</a>
+									<a>隔离</a>
+								<a>粉底</a>
+									<a>粉饼</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+		<dl>
+								<dt><a >护肤品 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >彩妆 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>时尚彩妆</a>
+									<a>香水</a>
+									<a>气垫护肤</a>
+									<a>BB霜</a>
+									<a>口红</a>
+									<a>隔离</a>
+								<a>粉底</a>
+									<a>粉饼</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+							<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+						</div>
+					<div class="sub hide" data-id="13">
+							<dl>
+								<dt><a >护肤品13 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >彩妆 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>时尚彩妆</a>
+									<a>香水</a>
+									<a>气垫护肤</a>
+									<a>BB霜</a>
+									<a>口红</a>
+									<a>隔离</a>
+								<a>粉底</a>
+									<a>粉饼</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+		<dl>
+								<dt><a >护肤品 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+									<a>官方直售</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>乳液面霜</a>
+									<a>精华液</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >彩妆 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>时尚彩妆</a>
+									<a>香水</a>
+									<a>气垫护肤</a>
+									<a>BB霜</a>
+									<a>口红</a>
+									<a>隔离</a>
+								<a>粉底</a>
+									<a>粉饼</a>
+								</dd>
+								
+							</dl>
+								<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+							<dl>
+								<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+								<dd>
+									<a>洁面爽</a>
+									<a>面膜</a>
+									<a>护肤套装</a>
+									<a>肤水乳液/面霜</a>
+									<a>精华液</a>
+									<a>眼部护理</a>
+									<a>面膜</a>
+									<a>唇部护理</a>
+									<a>防晒</a>
+									<a>精华液</a>
+									<a>T区护理控油</a>
+									
+								</dd>
+								
+							</dl>
+						</div>
+						<div class="sub hide" data-id="14">
+								<dl>
+									<dt><a >护肤品14 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+			<dl>
+									<dt><a >护肤品 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+								<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+</div>
+						<div class="sub hide" data-id="15">
+								<dl>
+									<dt><a >护肤品15 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+			<dl>
+									<dt><a >护肤品 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+								<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+							</div>
+						<div class="sub hide" data-id="16">
+								<dl>
+									<dt><a >护肤品 16<i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+			<dl>
+									<dt><a >护肤品 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+								<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+							</div>
+						<div class="sub hide" data-id="17">
+								<dl>
+									<dt><a >护肤品17 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+			<dl>
+									<dt><a >护肤品 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+										<a>官方直售</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>乳液面霜</a>
+										<a>精华液</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >彩妆 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>时尚彩妆</a>
+										<a>香水</a>
+										<a>气垫护肤</a>
+										<a>BB霜</a>
+										<a>口红</a>
+										<a>隔离</a>
+									<a>粉底</a>
+										<a>粉饼</a>
+									</dd>
+									
+								</dl>
+									<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+								<dl>
+									<dt><a >男士护肤 <i> &gt;</i></a> </dt>
+									<dd>
+										<a>洁面爽</a>
+										<a>面膜</a>
+										<a>护肤套装</a>
+										<a>肤水乳液/面霜</a>
+										<a>精华液</a>
+										<a>眼部护理</a>
+										<a>面膜</a>
+										<a>唇部护理</a>
+										<a>防晒</a>
+										<a>精华液</a>
+										<a>T区护理控油</a>
+										
+									</dd>
+									
+								</dl>
+							</div>
+						
+					</div>
+		
+			</div>
+			<script src="js/fenlan.js"></script>
+			<!--中间的轮播图那块-->
+			<div class="content2-icon2">
+				<div class="show-icon2">
+					<ul>
+						<li>
+							<img src="img/banner1.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner2.png">
+						</li>
+						<li>
+							<img src="img/banner3.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner4.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner5.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner6.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner7.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner8.jpg"/>
+						</li>
+						<li>
+							<img src="img/banner1.jpg"/>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="banner-btn">
+					<button class="left"><</button>
+					<button class="right">></button>
+				</div>
+				<div class="circle">
+					<span class="active"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<script src="js/banner1-1.js"></script>
+			<!--三个商品那块-->
+			<div class="content2-icon3">
+				<!--第一个商品-->
+				<div class="icon3-box1">
+					<img src="img/pic5.jpg" alt=""/>
+				</div>
+				<!--第二个商品-->
+				<div class="icon3-box2">
+					<img src="img/5b7d28b4N61eff295.jpg" alt=""/>
+				</div>
+				<!--第三个商品-->
+				<div class="icon3-box3">
+					<img src="img/5b5e670aNd6753882.png" alt=""/>
+				</div>
+			</div>
+			<!--用户登录注册那块-->
+			<div class="content2-icon4">
+				<div class="icon4-box1">
+					<img src="img/no_login.jpg" class="head-portrait"/>
+				</div>
+				<div class="icon4-box2">
+					<span>Hi~欢迎来到京东！</span>
+					<p class="denglu clearfix">
+						<a href="http://localhost/phpnow/jd/login.html" class="enter" target="_black">登录</a>
+						<a href="http://localhost/phpnow/jd/register.html" class="register" target="_black">注册</a>
+					</p>
+					<p class="fuli clearfix">
+						<a href="#" class="welfare">新人福利</a>
+						<a href="#" class="member">PLUS会员</a>
+					</p>
+					<!-- 促销公告 -->
+					<div class="box2-end">
+						 <p class="clearfix"> 
+						 	 <a href="#" class="promotion active" style="float:left">促销</a>
+						 	 <span class="box2-line"></span>
+						  	 <a href="#" class="notice" style="float:right">公告</a>
+						 </p>
+						 <a href="#" class="more">更多</a>
+					</div>
+					<ul class="icon4-box3">
+						<li class="active">
+							<a href="#">智能开学季，学生平板5折枪</a>
+							<a href="#">戴尔品牌日满10台减300</a>
+							<a href="#">达能全球日超级品牌日</a>
+							<a href="#">智能机器人问卷调研</a>
+						</li>
+						<li>
+							<a href="#">智能机器人问卷调研</a>
+							<a href="#">达能全球日超级品牌日</a>
+							<a href="#">戴尔品牌日满10台减300</a>
+							<a href="#">智能开学季，学生平板5折枪</a>
+						</li>
+					</ul>
+					<script>
+						var oP = document.querySelector(".box2-end p");
+						var oA = oP.querySelectorAll("a");
+						var oUl = document.querySelector(".icon4-box3"); 
+						var oItem = oUl.children;
+						
+						for(var i = 0 ; i < oA.length; i++){
+							oA[i].index = i;
+							oA[i].onmouseover = function(){
+								for(var i = 0 ; i  < oA.length ; i++){
+									oA[i].className = "";
+									oItem[i].className = "";
+								}
+								this.className = "active";
+								oItem[this.index].className = "active";
+							}
+						}
+					</script>
+
+					<div class="icon4-box4">
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+						<figure>
+							<a href="#"></a>
+							<figcaption>话费</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!------------------京东秒杀商品那块区域------------>
+		<section id="wrap-content3" class="clearfix">
+			<!--京东秒杀start-->
+				<a href="#" class="seckill-icon">
+			        <h2>京东秒杀</h2>
+			        <b>FLASH DEALS</b>
+			        <i>本场距离结束还剩</i>
+			        <div class="seckill-box clearfix">
+			            <p><span id="hour"></span></p>
+			            <p><span id="minute"></span></p>
+			            <p><span id="second"></span></p>
+			            <mark></mark>
+	      		  </div>
+				</a>
+			<script>
+			var timer=null;
+			var timer=setInterval(function(){
+				var d = new Date;
+				var z = new Date("2018/11/11 07:00:00");
+				var leftTimer = z.getTime() -d.getTime();
+
+				var nHour = parseInt(leftTimer /1000 / 60 /60 );
+				var nMinute = parseInt(leftTimer / 1000 / 60 %60);
+				var nSecond = parseInt(leftTimer / 1000 %60);
+				
+				if( nHour < 10){
+					nHour = "0" + nHour;
+				}
+				if( nMinute < 10){
+					nMinute = "0" + nMinute;
+				}
+				if( nSecond < 10){
+					nSecond = "0" + nSecond;
+				}
+				
+				if(leftTimer <= 0){
+					clearInterval(timer);
+					return "0";
+				}
+
+				hour.innerHTML=nHour;
+				minute.innerHTML=nMinute;
+				second.innerHTML=nSecond;
+			},1000)
+			</script>
+			<!-- 秒杀商品的轮播 -->
+			<div class="show-middle">
+				<div class="banner2">
+					<ul>
+						<li>
+							<!--秒杀商品1-->
+							<a href="#" class="seckill1">
+								<img src="img/5832861fN2566f854.jpg!q90.webp" title="TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器" class="seckill1-shop"/>
+								<p class="seckill1-p1">TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品2-->
+							<a href="#" class="seckill2">
+								<img src="img/5b0b8179N3285a118.jpg!q90.webp" title="飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372" class="seckill1-shop"/>
+								<p class="seckill1-p1">飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品3-->
+							<a href="#" class="seckill3">
+								<img src="img/5b0cefeaNe8ccb366.jpg!q90.webp" class="seckill1-shop" title="华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银"/>
+								<p class="seckill1-p1">华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品4-->
+							<a href="#" class="seckill4">
+								<img src="img/5b3b4194Nada4c041.jpg!q90.webp" class="seckill1-shop" title="华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待"/>
+								<p class="seckill1-p1">华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<!--秒杀商品1-->
+							<a href="#" class="seckill1">
+								<img src="img/5b0b8179N3285a118.jpg!q90.webp" title="TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器" class="seckill1-shop"/>
+								<p class="seckill1-p1">2TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品2-->
+							<a href="#" class="seckill2">
+								<img src="img/5832861fN2566f854.jpg!q90.webp" title="飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372" class="seckill1-shop"/>
+								<p class="seckill1-p1">飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品3-->
+							<a href="#" class="seckill3">
+								<img src="img/5b0cefeaNe8ccb366.jpg!q90.webp" class="seckill1-shop" title="华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银"/>
+								<p class="seckill1-p1">华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+							<!--秒杀商品4-->
+							<a href="#" class="seckill4">
+								<img src="img/5b3b4194Nada4c041.jpg!q90.webp" class="seckill1-shop" title="华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待"/>
+								<p class="seckill1-p1">华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待</p>
+								<p class="seckill1-p2 clearfix">
+									<span>&yen;204</span>
+									<span>&yen;234</span>
+								</p>
+							</a>
+						</li>
+						<li>
+								<!--秒杀商品1-->
+								<a href="#" class="seckill1">
+									<img src="img/5832861fN2566f854.jpg!q90.webp" title="TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器" class="seckill1-shop"/>
+									<p class="seckill1-p1">TP-LINK TL-WDR5620 1200M 5G双频智能无线路由器 四天线智能wifi 稳定穿墙高速家用路由器</p>
+									<p class="seckill1-p2 clearfix">
+										<span>&yen;204</span>
+										<span>&yen;234</span>
+									</p>
+								</a>
+								<!--秒杀商品2-->
+								<a href="#" class="seckill2">
+									<img src="img/5b0b8179N3285a118.jpg!q90.webp" title="飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372" class="seckill1-shop"/>
+									<p class="seckill1-p1">飞科(FLYCO)电动剃须刀全身水洗刮胡须刀FS372</p>
+									<p class="seckill1-p2 clearfix">
+										<span>&yen;204</span>
+										<span>&yen;234</span>
+									</p>
+								</a>
+								<!--秒杀商品3-->
+								<a href="#" class="seckill3">
+									<img src="img/5b0cefeaNe8ccb366.jpg!q90.webp" class="seckill1-shop" title="华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银"/>
+									<p class="seckill1-p1">华为(HUAWEI) MateBook D(2018版) 15.6英寸轻薄微边框笔记本(i5-8250U 8G 256G MX150 2G独显 FHD office)银</p>
+									<p class="seckill1-p2 clearfix">
+										<span>&yen;204</span>
+										<span>&yen;234</span>
+									</p>
+								</a>
+								<!--秒杀商品4-->
+								<a href="#" class="seckill4">
+									<img src="img/5b3b4194Nada4c041.jpg!q90.webp" class="seckill1-shop" title="华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待"/>
+									<p class="seckill1-p1">华为 HUAWEI nova 2 Plus 4GB+128GB 草木绿 移动联通电信4G手机 双卡双待</p>
+									<p class="seckill1-p2 clearfix">
+										<span>&yen;204</span>
+										<span>&yen;234</span>
+									</p>
+								</a>
+							</li>
+					</ul>
+				</div>
+				<div class="middlebtn">
+					<button class="middlebtn-right">></button>
+					<button class="middlebtn-left"><</button>
+				</div>
+			</div>
+			<script src="js/banner2-1.js"></script>
+			<!--秒杀商品end-->
+			<a href="#" class="seckill-end">
+				<div class="show-end">
+					<ul>
+						<li>
+							<img src="img/5b893870N6ed2ea12.jpg" />	
+						</li>
+						<li>
+							<img src="img/miao2.png"/>
+						</li>
+						<li>
+							<img src="img/5b893870N6ed2ea12.jpg" />	
+						</li>
+					</ul>
+				</div>
+				<div class="list">
+					<button class="active"></button>
+					<button></button>
+				</div>
+			</a>
+			<!-- 轮播图效果 -->
+			<script src="js/banner2-2.js"></script>
+		</section>
+		<!----------------排行榜这一大块的---------------->
+		<section id="wrap-content4" class="clearfix">
+			<!--排行榜-->
+		    <div class="rank-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">排行榜</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">专属你的购物指南</a>
+				</div>
+			   <div class="rank-icon-nav1">
+					<a href="#mobile" id="mobile-btn">手机通讯</a>
+					<a href="#kitchen">厨房小电</a>
+					<a href="#">饮料冲调</a>
+					<a href="#">大家电</a>
+					<a href="#">电脑整机</a>
+				</div>
+				<div class="rank-wrap">
+					<div class="rank-icon1">
+						<ul>
+							<li>
+								<div id="mobile">
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="one">1</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="two">2</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="three">3</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+								</div> 
+							</li>
+							<li>
+								<div id="kitchen">
+									<a href="#" class="clearfix">
+										<img src="img/5b8a5d0dNed7f86e2.jpg!q90.webp" />
+										<span class="one">1</span>
+										<p>美的（Midea）电饼铛家用双面加热悬浮烤盘微电脑一键菜单煎烤机WJCN30D</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b8a5d0dNed7f86e2.jpg!q90.webp" />
+										<span class="two">2</span>
+										<p>美的（Midea）电饼铛家用双面加热悬浮烤盘微电脑一键菜单煎烤机WJCN30D</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b8a5d0dNed7f86e2.jpg!q90.webp" />
+										<span class="three">3</span>
+										<p>美的（Midea）电饼铛家用双面加热悬浮烤盘微电脑一键菜单煎烤机WJCN30D</p>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div id="mobile">
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="one">1</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="two">2</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+									<a href="#" class="clearfix">
+										<img src="img/5b559a61N06565e55.jpg!q90.webp" />
+										<span class="three">3</span>
+										<p>【车载闪充套装】一加手机6 8GB+128GB 墨岩黑 全面屏双摄游戏手机 全网通4G 双卡双待</p>
+									</a>
+								</div> 
+							</li>
+						</ul>
+					</div>
+					<div class="dian" id="rank-list">
+						<button class="active"></button>
+						<button></button>
+					</div>
+				</div>
+				
+			</div> 
+			<!-- 轮播效果 -->
+			<script src="js/banner3-1.js"></script>
+			<!--会买专辑-->
+			 <div class="buy-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">会买专辑</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">甄选优质好物</a>
+				</div>
+				<div class="show-buy">
+					<ul>
+						<li>
+							<div class="buy-banner1">
+								<img src="img/banner1.jpg" />
+							</div>
+							<div class="buy-banner2 clearfix">
+									<img src="img/banner2.jpg" />
+									<img src="img/banner2.jpg" />
+									<img src="img/banner2.jpg" />
+							</div>
+							<div class="buy-box3">
+								<h2>内容内容内容内容</h2>
+								<p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+							</div>
+						</li>
+						<li>
+							<div class="buy-banner1">
+								<img src="img/banner2.webp" />
+							</div>
+							<div class="buy-banner2 clearfix">
+									<img src="img/banner33.jpg" />
+									<img src="img/banner44.jpg" />
+									<img src="img/banner2.jpg" />
+							</div>
+							<div class="buy-box3">
+								<h2>内容内容内容内容</h2>
+								<p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+							</div>
+						</li>
+						<li>
+							<div class="buy-banner1">
+								<img src="img/banner1.jpg" />
+							</div>
+							<div class="buy-banner2 clearfix">
+									<img src="img/banner2.jpg" />
+									<img src="img/banner2.jpg" />
+									<img src="img/banner2.jpg" />
+							</div>
+							<div class="buy-box3">
+								<h2>内容内容内容内容</h2>
+								<p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="dian" id="buy-list">
+					<button class="active"></button>
+					<button></button>
+				</div>
+				<div class="buy-btn">
+					<button class="left"><</button>
+					<button class="right">></button>
+				</div>
+			</div> 
+			<!-- 会买专辑的轮播效果 -->
+			<script src="js/banner3-2.js"></script>
+			<!--领券中心-->
+			 <div class="ticket-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">领券中心</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">前往领券中心</a>
+				</div>
+				<div class="ticket-cont">
+					<div class="ticket-wrap">
+						<ul>
+							<li>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+							</li>
+							<li>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+							</li>
+							<li>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+								<div class="ticket-box1 clearfix">
+									<span class="topbanyuan"></span>
+									<img src="img/5a126e9bNafae765e.jpg"/>
+									<div class="box1-icon clearfix">
+										<p><span>￥</span>20</p>
+										<p>满500元可用</p>
+										<p>全品类通用券(除特殊商品外)</p>
+									</div>
+									<a href="#">更多精选好券</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="dian" id="ticket-list">
+						<button class="active"></button>
+						<button></button>
+					</div>
+				</div>			
+		</div>
+		<!-- 轮播效果 -->
+		<script src="js/banner3-3.js"></script>
+			<!--觅me-->
+			<div class="me-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">觅me</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">探索生活</a>
+				</div>
+				<div class="content4-icon">
+					<ul>
+						<li>
+							<img src="img/mi.webp" class="shoses"/>
+							<p><a href="#" target="_blank">独得侃爷恩宠的椰子鞋，竟然是这一双</a></p>
+							<p><a href="#"target="_blank">椰子鞋的成功，当然离不开侃爷和各路明星的上脚，椰子大火的系列350、350v2、750、500等，都引来国内国</a></p>
+						</li>
+						<li>
+							<img src="img/mi1.webp" class="shoses"/>
+							<p><a href="#" target="_blank">独得侃爷恩宠的椰子鞋，竟然是这一双</a></p>
+							<p><a href="#"target="_blank">椰子鞋的成功，当然离不开侃爷和各路明星的上脚，椰子大火的系列350、350v2、750、500等，都引来国内国</a></p>
+						</li>
+						<li>
+							<img src="img/mi.webp" class="shoses"/>
+							<p><a href="#" target="_blank">独得侃爷恩宠的椰子鞋，竟然是这一双</a></p>
+							<p><a href="#"target="_blank">椰子鞋的成功，当然离不开侃爷和各路明星的上脚，椰子大火的系列350、350v2、750、500等，都引来国内国</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="dian" id="me-list">
+					<button class="active"></button>
+					<button></button>
+				</div>
+				<div class="buy-btn">
+					<button class="left"><</button>
+					<button class="right">></button>
+				</div>
+			</div> 
+			<!-- 轮播效果 -->
+			<script src="js/banner3-4.js"></script>
+			<!--发现好货-->
+			 <div class="fond-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">发现好货</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">发现品质生活</a>
+				</div>
+				<ul class="fond-wrap clearfix">
+					<li>
+						<a href="#" target="_blank">
+							<img src="img/dianfanguo.webp">
+							<span>美的WIFI操控电饭煲</span>
+							<span>智能的WIFI链接通过手机APP进行操控，根据制作不同的饭食而调节压力，并且多段的IH加热方式让饭粒充盈饱满，真空的设计能够起到很好的保温效果，有限的能源却能做出最香甜的米饭。</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="img/dianfanguo.webp">
+							<span>美的WIFI操控电饭煲</span>
+							<span>智能的WIFI链接通过手机APP进行操控，根据制作不同的饭食而调节压力，并且多段的IH加热方式让饭粒充盈饱满，真空的设计能够起到很好的保温效果，有限的能源却能做出最香甜的米饭。</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="img/dianfanguo.webp">
+							<span>美的WIFI操控电饭煲</span>
+							<span>智能的WIFI链接通过手机APP进行操控，根据制作不同的饭食而调节压力，并且多段的IH加热方式让饭粒充盈饱满，真空的设计能够起到很好的保温效果，有限的能源却能做出最香甜的米饭。</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="img/dianfanguo.webp">
+							<span>美的WIFI操控电饭煲</span>
+							<span>智能的WIFI链接通过手机APP进行操控，根据制作不同的饭食而调节压力，并且多段的IH加热方式让饭粒充盈饱满，真空的设计能够起到很好的保温效果，有限的能源却能做出最香甜的米饭。</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--会逛-->
+			<div class="stroll-icon">
+				<div class="content4-start clearfix">
+					<a href="#" class="content4-start-a1">会逛</a>
+					<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+					<a href="#" class="content4-start-a3">你想逛得都在这里</a>
+				</div>
+				<div class="content4-img1">
+					<img src="img/5b790be4N32c0383c.jpg!q90!cc_350x250.webp"/>
+				</div>
+				<div class="content4-img2">
+					<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />
+					<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />
+					<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />
+				</div>
+			</div>
+		</section> 
+		
+
+
+		<!--titile1-->
+		<div class="title1">
+				<p></p>
+				<h1>时尚达人</h1>
+				<p></p>			
+			</div>
+			<div class="section3 clearfix">
+				<div class="section3-left">
+					
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">户外</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">玩所未玩</a>
+					</div>
+					<a href="#"target="_blank"title="户外运动">
+						<img src="img/5b6cf70eN0e07fbea.jpg!q90!cc_350x180" class="sports"/>
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank" title="7.16-健身">
+							<img src="img/5b4f01a2Nf3472ec7.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank" title="轮滑滑板">
+							<img src="img/5b7231ceNfad54043.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+				<!--center-->
+				<div class="section3-center ">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">魅力装扮</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">精致生活</a>
+					</div>
+					<a href="#"target="_blank" title="户外运动">
+						<img src="img/5b6cf70eN0e07fbea.jpg!q90!cc_350x180" class="sports"/>
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank" title="7.16-健身">
+							<img src="img/5b4f01a2Nf3472ec7.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank"title="轮滑滑板">
+							<img src="img/5b7231ceNfad54043.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+				<!--right-->
+				<div class="section3-right">
+					<a href="#"target="_blank" class="cases" title="口腔">
+						<p class="case-pic"><img src="img/5b877d67Nbe38a434.png!q90!cc_340x420" /></p>
+						<div class="case"></div>
+					</a>				
+				</div>			
+			</div>
+			
+			<!--section4-->
+			<div class="section4 clearfix">
+				<div class="section4-left">
+					<a class="cases-2" title="意尔康"  href="#" target="_blank">
+						<p class="case-2-pic"><img src="img/5b877d67Nbe38a434.png!q90!cc_340x420" /></p>
+						<div class="case-2"></div>
+					</a>
+				</div>
+				
+				<div class="section4-center">
+					<a class="center-top"title="元素少年" target="_blank" href="#">
+						<h3>
+							<i >元素少年</i>
+							<b></b>						
+							<i>简单自然</i>
+						</h3>
+						<div class="center-top-1 clearfix">
+							<img src="img/5b85ff62N43d9c3d6.jpg!q90!cc_130x130" alt="" />
+							<img src="img/5b85ff62N43d9c3d6.jpg!q90!cc_130x130" alt="" />
+						</div>
+					</a>
+					<a class="center-top"title="元素少年" target="_blank" href="#">
+						<h3>
+							<i >元素少年</i>
+							<b></b>
+							<i>简单自然</i>
+						</h3>
+						<div class="center-top-1 clearfix">
+							<img src="img/5b85ff62N43d9c3d6.jpg!q90!cc_130x130" alt="" />
+							<img src="img/5b85ff62N43d9c3d6.jpg!q90!cc_130x130" alt="" />
+						</div>
+					</a>
+				</div>
+				
+				<div class="section4-right">
+					<p class="section4-right-1 clearfix">
+						<span><img src="img/5b233f06Nd458e173.jpg!q90"></span>
+						<i>COACH京东自营店</i>
+					</p>
+					<a href="#" target="_blank" class="bag" title="COACH京东自营店">
+						<img src="img/5ad07e29Nb97345cc.jpg!q90!cr_558x360_385_0" />
+					</a>
+					<div class="luxury clearfix">
+						<a href="#" target="_blank" title="COACH 蔻驰 奢侈品 女士白色印花PVC短款礼盒装手拿包零钱包 F27472 IMCAH">
+							<img src="img/5afe92aaN6dfe4d99.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title="COACH 蔻驰 奢侈品 女士白色印花PVC短款礼盒装手拿包零钱包 F27472 IMCAH">
+							<img src="img/5afe92aaN6dfe4d99.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title="COACH 蔻驰 奢侈品 女士白色印花PVC短款礼盒装手拿包零钱包 F27472 IMCAH">
+							<img src="img/5afe92aaN6dfe4d99.jpg!q90!cc_100x100.webp" />						
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--secton5-->
+			<div class="section5 clearfix">
+				<div class="section5-left">
+
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">京东服饰</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">尽享时尚生活</a>
+					</div>
+					<a href="#" target="_blank"title="会逛"class="skirt">
+						<img src="img/5b790be4N32c0383c.jpg!q90!cc_350x250.webp"  />
+					</a>
+					<p class="clothes clearfix">
+						<a href="#" target="_blank">
+							<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />						
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/5b790c2aN9fd185a5.jpg!q90!cc_110x110.webp" />
+						</a>
+					</p>
+				</div>
+				
+				<!--center-->
+				<div class="section5-center">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">我型我塑</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">时尚有我 品质衣橱</a>
+					</div>
+					<a href="#"target="_blank" title="男装馆">
+						<img src="img/5b6cf70eN0e07fbea.jpg!q90!cc_350x180" class="sports"/>
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank"title="品质钟表">
+							<img src="img/5b4f01a2Nf3472ec7.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank" title="珠宝饰品">
+							<img src="img/5b7231ceNfad54043.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+				<!--right-->
+				<div class="section5-right">
+					<a href="#"target="_blank" class="cases" >
+						<p class="case-pic">
+							<img src="img/5a53161dN763a935c.jpg!q90!cc_340x200" />
+							<img src="img/5a2f8f66N0ae25659.jpg!q90!cc_340x200" />						
+						</p>
+						<div class="case"></div>
+					</a>								
+				</div>			
+			</div>
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>智能先锋</h1>
+				<p></p>			
+			</div>
+			<!--section6-->
+			<div class="section6 clearfix">
+				<div class="section6-left">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">手机频道</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">一个极客的诞生</a>
+					</div>
+					<p class="phones clearfix">
+						<a href="#"target="_blank" title="手机频道">
+							<img src="img/5b7e60c8N93d7269c.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank"title="配件中心">
+							<img src="img/5b7e60c8N93d7269c.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+					<ul class="kinds clearfix">
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="img/5b11242dN79066681.jpg!q90">
+							</a>
+						</li>
+					</ul>				
+				</div>
+				<!--center-->
+				<div class="section6-center">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">新品首发</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">看新奇好物 必来新品首发</a>
+					</div>
+					<a href="#" target="_blank" title="新品首发" class="new">
+						<img src="img/5b3d9672Ne2b3d5e2.png!q90!cc_350x370" />
+					</a>
+				</div>
+				<div class="section6-right">
+					<a href="#"target="_blank" class="cases" title="电脑配件">
+						<p class="case-pic"><img src="img/5b877d67Nbe38a434.png!q90!cc_340x420" /></p>
+						<div class="case"></div>
+					</a>
+				</div>			
+			</div>
+			
+			<!--section7-->
+			<div class="section7 clearfix">
+				<div class="section7-left">
+					<a href="#"target="_blank" class="cases-2" >
+						<p class="case-2-pic">
+							<img src="img/59f1b5e0N89238782.jpg!q90!cc_340x200" />
+							<img src="img/5a2f8fedN19f5967c.jpg!q90!cc_340x200" />						
+						</p>
+						<div class="case-2"></div>
+					</a>				
+				</div>
+				<!--center-->
+				<div class="section7-center">
+					<a class="center-top"title="酷玩3C" target="_blank" href="#">
+						<h3>
+							<i >酷玩3C</i>
+							<b></b>						
+							<i>精选酷玩3C</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/5b3a1c8bNa887ea0c.jpg!q90!cc_130x130" alt="" />
+							<img src="img/5b3a1c8bNa887ea0c.jpg!q90!cc_130x130" alt="" />
+						</div>
+					</a>
+					<a class="center-top"title="极客桌面" target="_blank" href="#">
+						<h3>
+							<i >极客桌面</i>
+							<b></b>						
+							<i>极客桌面</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/5b1f7fc6N05c05a4c.jpg!q90!cc_130x130" alt="" />
+							<img src="img/5b1f7fc6N05c05a4c.jpg!q90!cc_130x130" alt="" />
+						</div>
+					</a>
+				</div>
+				<!--right-->
+				<div class="section7-right">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">智能数码</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">智能潮货 嗨狗不停</a>
+					</div>
+					<p class="digital">
+						<a href="#" target="_blank">
+							<img src="img/5b879c37N03626d33.png!q90!cc_350x180" />
+						</a>
+					</p>
+					<p class="digital">
+						<a href="#" target="_blank">
+							<img src="img/5b879c37N03626d33.png!q90!cc_350x180" />
+						</a>
+					</p>
+				</div>			
+			</div>
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>生活百货</h1>
+				<p></p>			
+			</div>
+			
+			<!--section8-->
+			<div class="section8 clearfix">
+				<div class="section8-left">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">京东超市</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">精选超值好物</a>
+					</div>
+					<a href="#"target="_blank"title="超市首页"class="sports">
+						<img src="img/5b4c45bfNcfd19212.jpg!q90!cc_350x180" />
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank" title="品牌特卖">
+							<img src="img/5b4c43a8Ndb67446f.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank" title="超值量贩">
+							<img src="img/5b4c4450N40d9c9ad.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+				<div class="section8-center">
+					<p class="section4-right-1 clearfix">
+						<span><img src="img/584f669bN1c7c78c7.jpg!q90"></span>
+						<i>恒都自营旗舰店</i>
+					</p>
+					<a href="#" target="_blank" class="bag" title="恒都自营旗舰店">
+						<img src="img/59f81657N2ab2bfc4.jpg!q90!cr_558x360_385_0" />
+					</a>
+					<div class="luxury clearfix">
+						<a href="#" target="_blank" title=" 恒都 澳洲牛腩块 500g/袋 草饲牛肉 进口生鲜">
+							<img src="img/5b57e0e8Ne3f4f846.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title=" 恒都 澳洲进口 牛腱子 1kg/袋 草饲牛肉 （适用卤、炸、炒、炖）">
+							<img src="img/5811c2c5N1a5ca140.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title="COACH 蔻驰 奢侈品 女士白色印花PVC短款礼盒装手拿包零钱包 F27472 IMCAH恒都 精制 肥牛片 380g/袋 谷饲牛肉 生鲜自营（适用做菜、涮火锅）">
+							<img src="img/5817ff80N906bad34.jpg!q90!cc_100x100.webp" />						
+						</a>
+					</div>
+				</div>
+				<div class="section8-right">
+					<a href="#"target="_blank" class="cases" title="图书文娱">
+						<p class="case-pic"><img src="img/5b877d67Nbe38a434.png!q90!cc_340x420" /></p>
+						<div class="case"></div>
+					</a>
+				</div>			
+			</div>
+			
+			<!--section9-->
+			<div class="section9 clearfix">
+				<div class="section9-left">
+					<a href="#"target="_blank" class="cases-2" >
+						<p class="case-2-pic">
+							<img src="img/5a4c926aNeb3455a8.jpg!q90!cc_340x200" />
+							<img src="img/59fc1b1eNac291dd1.jpg!q90!cc_340x200" />						
+						</p>
+						<div class="case-2"></div>
+					</a>
+				</div>
+				<div class="section9-center">
+					<a class="center-top"title="玩儿乐汇" target="_blank" href="#">
+						<h3>
+							<i >玩儿乐汇</i>
+							<b></b>						
+							<i>儿童玩具</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/58130f31Nb8582cd3.jpg!q90!cc_130x130" alt="" title="玩儿乐汇"/>
+							<img src="img/59e4173bN51f6929b.jpg!q90!cc_130x130" alt="" title="玩儿乐汇"/>
+						</div>
+					</a>
+					<a class="center-top"title="撸串烧烤" target="_blank" href="#">
+						<h3>
+							<i >撸串烧烤</i>
+							<b></b>						
+							<i>闲时撸个串儿</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/570d1eb8Nf556fd0e.jpg!q90!cc_130x130" alt="" title="撸串烧烤"/>
+							<img src="img/58e71ad2Ne4dcb86c.jpg!q90!cc_130x130" alt="" title="撸串烧烤"/>
+						</div>
+					</a>
+				</div>
+				<div class="section9-right">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">图书集市</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">有读有品</a>
+					</div>
+					<p class="digital">
+						<a href="#" target="_blank" title="影视动漫周边">
+							<img src="img/5b87c0e9N823fe334.jpg!q90!cc_350x180" />
+						</a>
+					</p>
+					<p class="digital">
+						<a href="#" target="_blank"title="传统文化月">
+							<img src="img/5b878decN66f81cf4.jpg!q90!cc_350x180" />
+						</a>
+					</p>
+				</div>			
+			</div>
+			
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>居家优品</h1>
+				<p></p>			
+			</div>
+			
+			<!--section10-->
+			<div class="section10 clearfix">
+				<div class="section10-left">
+					<a class="cases-2" title="健康养生馆" href="#" target="_blank">
+						<p class="case-2-pic"><img src="img/5b877d67Nbe38a434.png!q90!cc_340x420" /></p>
+						<div class="case-2"></div>
+					</a>
+				</div>
+				<div class="section10-center">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">家电馆</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">家电好物节</a>
+					</div>
+					<a href="#"target="_blank"title="1"class="sports">
+						<img src="img/5b86815aN16211fdd.jpg!q90!cc_350x180" />
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank" title="空调管">
+							<img src="img/5b8749a3N23154187.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank" title="好家装选好家电">
+							<img src="img/5b8757e4Nabc4bf65.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+				<div class="section10-right">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">我爱我家</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">品质生活家</a>
+					</div>
+					<a href="#"target="_blank"title="开学必备日用品"class="sports">
+						<img src="img/5b72bf4fNb2716489.jpg!q90!cc_350x180" />
+					</a>
+					<p class="section3-left-2 clearfix">
+						<a href="#"target="_blank" title="滋补养生">
+							<img src="img/5b70dbabN3862e191.jpg!q90!cc_170x180" />
+						</a>
+						<a href="#"target="_blank" title="汽车用品">
+							<img src="img/5b43397aNed838c28.jpg!q90!cc_170x180" />
+						</a>
+					</p>
+				</div>
+			</div>
+			
+			<!--section11-->
+			<div class="section11 clearfix">
+				<div class="section11-left">
+					<p class="section4-right-1 clearfix">
+						<span><img src="img/57427e72N4ee1c3c2.jpg!q90"></span>
+						<i>芝华士旗舰店</i>
+					</p>
+					<a href="#" target="_blank" class="bag" title="芝华士旗舰店">
+						<img src="img/5b2ccaabN33f6ef28.jpg!q90!cr_558x360_385_0" />
+					</a>
+					<div class="luxury clearfix">
+						<a href="#" target="_blank" title=" 9.2-9.3抢拍1元礼包，1元特权，限量1000个，拍完下架，详询客服 颜色随机">
+							<img src="img/5b7cc5a1Nfab3d7a0.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title=" 芝华仕头等舱沙发 功能单椅 现代简约 进口头层牛皮真皮艺懒人沙发实木电动K831B 米黄色 15-60天发货">
+							<img src="img/5b7d329cN44bc41d5.jpg!q90!cc_100x100.webp" />						
+						</a>
+						<a href="#" target="_blank" title="芝华仕头等舱 爱蒙床头柜 床头收纳柜 小型简约卧室家具 单拍不发货 G003 象牙白+599元换购，单拍不发货">
+							<img src="img/5ac1cf09N180320c2.jpg!q90!cc_100x100.webp" />						
+						</a>
+					</div>
+				</div>
+				<div class="section11-center">
+					<a class="center-top"title="居家范儿" target="_blank" href="#">
+						<h3>
+							<i >居家范儿</i>
+							<b></b>						
+							<i>居家睡衣</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/5b42d224Naedeb3a8.jpg!q90!cc_130x130" alt="" title="居家范儿"/>
+							<img src="img/5aa8ad6cN15052a73.jpg!q90!cc_130x130" alt="" title="居家范儿"/>
+						</div>
+					</a>
+					<a class="center-top"title="家用医疗" target="_blank" href="#">
+						<h3>
+							<i >家用医疗</i>
+							<b></b>						
+							<i>医药保健</i>
+						</h3>
+						<div class="center-top-1">
+							<img src="img/5b694bcdN2d570394.jpg!q90!cc_130x130" alt="" title="家用医疗"/>
+							<img src="img/5b2afcd4N363f39cf.jpg!q90!cc_130x130" alt="" title="家用医疗"/>
+						</div>
+					</a>
+				</div>
+				<div class="section11-right">
+					<a href="#"target="_blank" class="cases" >
+						<p class="case-pic">
+							<img src="img/5a53161dN763a935c.jpg!q90!cc_340x200" />
+							<img src="img/5a2f8f66N0ae25659.jpg!q90!cc_340x200" />						
+						</p>
+						<div class="case"></div>
+					</a>
+				</div>		
+			</div>
+			
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>JOY寻宝</h1>
+				<p></p>			
+			</div>
+			
+			<!--section12-->
+			<div class="section12 clearfix" >
+				<a class="section12-left"href="#" title="路在何方" target="_blank">
+					<div class="section12-a">
+						<img src="img/5adddb53Ne21dafca.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">路在何方
+							<span></span>
+							<b>长途旅行家</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/5550148bN1e0e3658.jpg!q90!cc_110x110" />
+						<img src="img/57a2f09bN00dc21d9.jpg!q90!cc_110x110" />
+						<img src="img/57e0945cN335da602.jpg!q90!cc_110x110" />
+					</div>
+				</a>
+				
+				<a class="section12-center"href="#" title="绝饰佳人" target="_blank">
+					<div class="section12-a">
+						<img src="img/5addde7eN9ca3f3e7.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">绝饰佳人
+							<span></span>
+							<b>我的饰界</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/5b891677N52f1455f.jpg!q90!cc_110x110" />
+						<img src="img/5a4c49adN183c5837.jpg!q90!cc_110x110" />
+						<img src="img/5a509c5eNb6009cf0.jpg!q90!cc_110x110" />
+					</div>
+				</a>
+				<a class="section12-right"href="#" title="火锅英雄" target="_blank">
+					<div class="section12-a">
+						<img src="img/5adddb41N932b30f1.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">火锅英雄
+							<span></span>
+							<b>火锅本命</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/5ac498feN11884b2f.jpg!q90!cc_110x110" />
+						<img src="img/58cb4fb2N30c8e8c0.jpg!q90!cc_110x110" />
+						<img src="img/5a3c5d3fN1f67f9d7.jpg!q90!cc_110x110" />
+					</div>
+				</a>
+			</div>
+			
+			<!--section13-->
+			<div class="section13 clearfix">
+				<a class="section13-left" href="#" title="万能饰品" target="_blank">
+					<div class="section12-a">
+						<img src="img/5b7443a2N03547c58.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">万能饰品
+							<span></span>
+							<b>搭配小心机</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/576e5384N593789b1.jpg!q90!cc_110x110" />
+						<img src="img/59002126N740dadd3.jpg!q90!cc_110x110" />
+						<img src="img/5b038737N145ed124.jpg!q90!cc_110x110" />
+					</div>
+				</a>
+				<a class="section13-center"  href="#" title="时尚居家" target="_blank" >
+					<div class="section12-a">
+						<img src="img/5b056cd5Na75b3683.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">时尚居家
+							<span></span>
+							<b>为生活添彩</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/5a2dfb52N17216395.jpg!q90!cc_110x110" />
+						<img src="img/583ba524Nfaefb682.jpg!q90!cc_110x110" />
+						<img src="img/58c3afd7N0462b452.jpg!q90!cc_110x110" />
+					</div>
+				</a>
+				<a class="section13-right" href="#" title="自驾出行" target="_blank">
+					<div class="section12-a">
+						<img src="img/5b7570bfNeaf428f3.jpg!q90!cc_390x100"  class="a-top"/>
+						<div class="section12-bg"></div>
+						<h2 class="titles">自驾出行
+							<span></span>
+							<b>路上好风景</b>
+						</p>
+					</div>
+					<div class="section12-b clearfix">
+						<img src="img/59b7a9eaN144297e0.jpg!q90!cc_110x110" />
+						<img src="img/59520f97N4ba1ccfb.jpg!q90!cc_110x110" />
+						<img src="img/5ab09b44N6e0e1487.jpg!q90!cc_110x110" />
+					</div>
+				</a>			
+			</div>
+			
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>特色推荐</h1>
+				<p></p>			
+			</div>
+	
+	<!--section14-->
+		<div class="section14 clearfix">
+				<div class="section14-left">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">司法拍卖</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">法院好货 公开抢拍</a>
+					</div>
+					<a class="image">
+						<img src="img/tese1.jpg!q90!cc_350x250" />
+					</a>
+				</div>
+				
+				<div class="section14-center">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">京东金融</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">会理财 懂生活</a>
+					</div>
+					<a class="image">
+						<img src="img/tese2.jpg!q90!cc_350x250" />
+					</a>
+				</div>
+				<div class="section14-right">
+					<div class="content4-start clearfix">
+						<a href="#" class="content4-start-a1">京东扶贫</a>
+						<a href="#" class="content4-start-a2"><img src="img/right.png"/></a>
+						<a href="#" class="content4-start-a3">买特产 助扶贫</a>
+					</div>
+					<a class="image">
+						<img src="img/tese3.jpg!q90!cc_350x250" />
+					</a>
+				</div>
+			</div>
+			
+			<!--dian-->
+			<div class="dian">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<!--title-->
+			<div class="title1">
+				<p></p>
+				<h1>京东直播</h1>
+				<p></p>			
+			</div>
+		<!--section15-->
+			<div class="section15 clearfix">
+				<div class="section15-left">
+					<a class="section15-a" href="#" target="_blank"title="透真特卖专场">
+					<img src="img/zhibo_01.png" />
+					<h3 class="video-title">品牌专场！优惠力度世上最大哟!</h3>
+					<div class="auto"></div>
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="和田玉低价放漏">
+					<img src="img/zhibo_02.png" />				
+					<h3 class="video-title">包邮 送证书 送礼盒</h3>
+					<div class="auto"></div>
+					
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="新疆和田玉大放漏了">
+					<img src="img/zhibo_03.png" />
+					<h3 class="video-title">0元起拍</h3>
+					<div class="auto"></div>
+					
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="玉都天光墟 主播娜娜带你看美货">
+					<img src="img/zhibo_04.png" />
+					<h3 class="video-title">薄利  厂价   新开福利放送</h3>
+					<div class="auto"></div>			
+				</a>
+			</div>
+				
+			<div class="section15-center">
+					<a href="#" target="_blank" title="和田玉雕刻师带你从源头淘货">
+						<img src="img/zhibo_05.png" />
+						<h3 class="video-title">和田玉雕刻师带你从源头淘货</h3>
+					<div class="auto"></div>
+					</a>
+			</div>
+				
+				<div class="section15-right">
+					<a class="section15-a" href="#" target="_blank"title="透真特卖专场">
+					<img src="img/zhibo_06.png" />
+					<h3 class="video-title">品牌专场！优惠力度世上最大哟!</h3>
+					<div class="auto"></div>
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="和田玉低价放漏">
+					<img src="img/zhibo_07.png" />				
+					<h3 class="video-title">包邮 送证书 送礼盒</h3>
+					<div class="auto"></div>
+					
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="新疆和田玉大放漏了">
+					<img src="img/zhibo_08.png" />
+					<h3 class="video-title">0元起拍</h3>
+					<div class="auto"></div>
+					
+				</a>
+				<a class="section15-a"href="#" target="_blank"title="玉都天光墟 主播娜娜带你看美货">
+					<img src="img/zhibo_09.png" />
+					<h3 class="video-title">薄利  厂价   新开福利放送</h3>
+					<div class="auto"></div>
+					
+				</a>
+				</div>		
+			</div>
+				<!-- 还没逛够 -->
+				<div class="title1">
+						<p></p>
+						<h1>还没逛够</h1>
+						<p></p>			
+					</div>
+				<div class="hmgg">
+					
+					<div class="hmgg-icon2 clearfix">
+						<ul>
+							
+						</ul>
+					</div>
+				</div>	
+				<script src="js/pagination.js"></script>			
+
+
+		<!-- 还没逛够 -->
+		 <!-- <div class="hmgg">
+			<div class="hmgg-icon1 clearfix">
+				<span></span>
+				<span>还没逛够</span>
+				<span></span>
+			</div>
+			<div class="hmgg-icon2">
+				<ul>
+					
+				</ul>
+			</div>
+		</div> -->
+		<!-- <script src="js/pagination.js"></script> -->
+		 <!-- 页面底部 部分 start -->
+		 <footer>
+			<!-- 服务模块 -->
+			<div class="service clearfix">
+				<div class="wrap">
+					<ul class="clearfix">
+						<li>
+							<h5></h5>
+							<p>品类齐全，轻松购物</p>
+						</li>
+						<li>
+							<h5></h5>
+							<p>多仓直发，极速配送</p>
+						</li>
+						<li>
+							<h5></h5>
+							<p>正品行货，精致服务</p>
+						</li>
+						<li>
+							<h5></h5>
+							<p>天天低价，畅选无忧</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 帮助模块 -->
+			<div class="wrap help">
+				<div class="fl">
+					<dl>
+						<dt>购物指南</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员介绍</a></dd>
+						<dd><a href="#">生活旅行</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+						<dd><a href="#">大家电</a></dd>
+						<dd><a href="#">联系客服</a></dd>
+					</dl>
+					<dl>
+						<dt>配送方式</dt>
+						<dd><a href="#">上门自提</a></dd>
+						<dd><a href="#">211限时达</a></dd>
+						<dd><a href="#">配送服务查询</a></dd>
+						<dd><a href="#">配送费收取标准</a></dd>
+						<dd><a href="#">海外配送</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">在线支付</a></dd>
+						<dd><a href="#">分期付款</a></dd>
+						<dd><a href="#">邮局汇款</a></dd>
+						<dd><a href="#">公司转账</a></dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">售后政策</a></dd>
+						<dd><a href="#">价格保护</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">返修/退换货</a></dd>
+						<dd><a href="#">取消订单</a></dd>
+					</dl>
+					<dl>
+						<dt>特色服务</dt>
+						<dd><a href="#">夺宝岛</a></dd>
+						<dd><a href="#">DIY装机</a></dd>
+						<dd><a href="#">延保服务</a></dd>
+						<dd><a href="#">京东E卡</a></dd>
+						<dd><a href="#">京东通信</a></dd>
+						<dd><a href="#">京东JD+</a></dd>
+					</dl>
+				</div>
+				<div class="fr coverage">
+					<h5>京东自营覆盖区县</h5>
+					<p>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+					<a href="#">查看详情></a>
+				</div>
+			</div>
+			<!-- 底部版权模块 -->
+			<div class="wrap copyright">
+				<p>
+					<a href="#">关于我们</a>
+					<span> | </span>
+					<a href="#">联系我们</a>
+					<span> | </span>
+					<a href="#">联系客服</a>
+					<span> | </span>
+					<a href="#">合作招商</a>
+					<span> | </span>
+					<a href="#">商家帮助</a>
+					<span> | </span>
+					<a href="#">营销中心</a>
+					<span> | </span>
+					<a href="#">手机京东</a>
+					<span> | </span>
+					<a href="#">友情链接</a>
+					<span> | </span>
+					<a href="#">销售联盟</a>
+					<span> | </span>
+					<a href="#">京东社区</a>
+					<span> | </span>
+					<a href="#">风险监测</a>
+					<span> | </span>
+					<a href="#">京东公益</a>
+					<span> | </span>
+					<a href="#">English Site</a>
+					<span> | </span>
+					<a href="#">Media & IR</a>
+				</p>
+				<div class="register">
+					<p><a href="#">京公网安备 11000002000088号</a><span> | </span>
+					京ICP证070359号<span> | </span>
+					<a href="#">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span> | </span>
+					新出发京零 字第大120007号
+					</p>
+					<p>互联网出版许可证编号新出网证(京)字150号<span> | </span><a href="#">出版物经营许可证</a><span> | </span>网络文化经营许可证京网文[2014]2148-348号<span> | </span>违法和不良信息举报电话：4006561155
+					</p>
+					<p>Copyright ? 2004 - 2018  京东JD.com 版权所有<span> | </span>
+					消费者维权热线：4006067733 &nbsp;&nbsp;<a href="#">经营证照</a><span> | </span>
+					(京)网械平台备字(2018)第00003号
+					</p>
+					<p><a href="#"><i class="Global"></i>Global Site</a><span> | </span>
+					<a href="#"><i class="Ca"></i>Сайт России</a><span> | </span>
+					<a href="#"><i class="Situs"></i>Situs Indonesia</a><span> | </span>
+					<a href="#"><i class="Sitio"></i>Sitio de España</a><span> | </span>
+					<a href="#"><i class="Thailand"></i>เว็บไซต์ประเทศไทย</a>
+					</p>
+					<p>京东旗下网站：<a href="#">京东钱包</a><span> | </span><a href="#">京东云</a></p>
+				</div>
+				<p class="foot-icon">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</p>
+			</div>
+		</footer>
+		<!-- 页面底部 部分 end -->
+	</body>
+</html>

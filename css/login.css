@@ -1,0 +1,234 @@
+html,body{
+    width:100%;
+    background: #fff;
+}
+body{
+    height: 476px;
+    background: #e1bda3;
+    margin-top:120px; 
+    position: relative;
+}
+#login{
+   background:  url(../img/login.jpg) no-repeat center;
+   width: 990px;
+   height: 475px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+}
+.wrap{
+    width: 347px;
+    height: 400px;
+    float: right;
+    background:#fff;
+    margin-top: 10px; 
+}
+.login-icon1{
+    width: 347px;
+    height: 40px;
+    font-size: 12px;
+    background: #fff8f0 url(../img/icon-tips.png) no-repeat 22px center;
+    color:#999;
+    line-height: 40px;
+    text-align:center;
+}
+.login-icon2{
+    width: 347px;
+    height: 54px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.login-icon2 p:nth-child(1){
+   width: 172px;
+   height: 54px;
+   font-size: 18px;
+   color: #666;
+   float: left;
+   line-height: 54px;
+   text-align: center;
+}
+.login-icon2 span{
+    width: 1px;
+    height: 18px;
+    margin-top: 18px;
+    background: #f4f4f4;
+    float: left;
+}
+.login-icon2 p:nth-child(3){
+   width: 172px;
+   height: 54px;
+   font-size: 18px;
+   color: #e4393c;
+   float: right;
+   line-height: 54px;
+   text-align: center;
+}
+.login-icon3{
+    width: 307px;
+    height: 191px;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 33px 20px 31px 20px;
+}
+.login-icon3 .box1{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+} 
+.login-icon3 .box1 .box1p{
+    background: url(../img/namepwd.png) no-repeat center;
+    background-position: 0 0;
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-right: 1px solid #bdbdbd;
+}
+.login-icon3 .box1 input{
+    border: none;
+    outline: none;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.login-icon3 .box2{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+    margin-top:20px;  
+}
+.login-icon3 .box2 input{
+    border: none;
+    outline: none;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.login-icon3 .box2 .box2p{
+    background: url(../img/namepwd.png) no-repeat center;
+    background-position:-48px 0;
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-right: 1px solid #bdbdbd;
+}
+.login-icon3 .box3{
+    display: block;
+    font-size: 12px;
+    color: #666;
+    float: right;
+    height: 58px;
+    line-height: 58px;
+}
+.login-icon3 .box4{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    height: 34px;
+    width: 305px;
+    text-align: center;
+    background: #e4393c;
+    line-height: 34px;
+    margin-top: 58px;
+}
+.login-icon4{
+    width: 305px;
+    height: 18px;
+    padding:16px 20px;
+}
+.login-icon4 .box5{
+    float: left;
+    width: 136px;
+    height: 18px;
+}
+.login-icon4 .box5 a:nth-of-type(1){
+    display: block; 
+    width: 56px;
+    height: 18px;
+    float: left;
+}
+.login-icon4 .box5 a:nth-of-type(1) i{
+    background: url(../img/qqweixin.png) no-repeat left center;
+    background-position:-1px 0;
+    width: 18px;
+    height: 18px; 
+    display: inline-block;
+    float: left;
+}
+.login-icon4 .box5 a:nth-of-type(1) b{
+    font-size: 12px;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    float:left;
+    padding-left: 7px;
+}
+.login-icon4 .box5 span:nth-of-type(1){
+    display: block;
+    background: #d5ccd5;
+    width: 1px;
+    height: 11px;
+    float: left;
+    margin-top: 4px;
+}
+.login-icon4 .box5 span:nth-of-type(2){
+    display: block;
+    background: #e1fcfc;
+    width: 1px;
+    height: 11px;
+    float: left;
+    margin-top: 4px;
+}
+.login-icon4 .box5 a:nth-of-type(2){
+    display: block; 
+    width: 56px;
+    height: 18px;
+    float: right;
+}
+.login-icon4 .box5 a:nth-of-type(2) i{
+    background: url(../img/qqweixin.png) no-repeat left center;
+    background-position:-20px 0;
+    width: 18px;
+    height: 18px; 
+    display: inline-block;
+    float: left;
+}
+.login-icon4 .box5 a:nth-of-type(2) b{
+    font-size: 12px;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    float:left;
+    padding-left: 7px;
+}
+.login-icon4 .box6{
+    float: right;
+    width: 76px;
+    height: 18px;
+}
+.login-icon4 .box6 a{
+    display: block;
+}
+.login-icon4 .box6 a i{
+    display: block;
+    background: url(../img/namepwd.png) no-repeat left center;
+    background-position: -104px -75px;
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.login-icon4 .box6 a b{
+    display: block;
+    font-size: 14px;
+    color:#b61d1d ;
+    float: left;
+    height:18px;
+    line-height: 18px;
+    padding-left: 3px;
+}
